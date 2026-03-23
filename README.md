@@ -70,3 +70,9 @@ Tässä projektissa on harjoiteltu muun muassa:
 ## Yhteenveto
 
 Tämä projekti on kompakti mutta hyvä esimerkki siitä, miten HTML, JavaScript ja Bootstrap voidaan yhdistää toimivaksi selainpohjaiseksi sovellukseksi. Vaikka kyseessä on yksinkertainen laskin, mukana on useita tärkeitä peruskäsitteitä, joista on hyötyä myös suuremmissa web-projekteissa.
+
+## Tekijä
+
+**Lauri Tikkanen**
+
+GitHub: [Thermopylai](https://github.com/Thermopylai)
