@@ -1,4 +1,4 @@
-# HTML-laskin
+# :abacus: HTML-laskin
 
 ![GitHub Pages](https://img.shields.io/badge/Live-Demo-green)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
@@ -20,7 +20,7 @@ Yksinkertainen selainpohjainen nelilaskin, joka on toteutettu HTML:llä, JavaScr
 
 Tämä projekti on harjoitustyö, jossa on yhdistetty useita verkkokehityksen perustekniikoita samaan pieneen sovellukseen. Laskimessa on painikkeet numeroille, perusoperaattoreille, desimaalierottimelle, suluille sekä toiminnoille **clear**, **backspace** ja **calculate**. Käyttöliittymä hyödyntää Bootstrapin valmiita tyyliluokkia ja Bootstrap Icons -ikoneita, mikä tekee ulkoasusta siistin ja helposti luettavan.
 
-## Ominaisuudet
+## :hammer_and_wrench: Ominaisuudet
 
 - peruslaskutoimitukset: yhteenlasku, vähennyslasku, kertolasku ja jakolasku
 - tuki desimaaliluvuille
@@ -31,14 +31,14 @@ Tämä projekti on harjoitustyö, jossa on yhdistetty useita verkkokehityksen pe
 - selainpohjainen käyttö ilman palvelinta
 - saavutettavuutta parantavia `aria-label`-määrittelyjä
 
-## Käytetyt tekniikat
+## :chains: Käytetyt tekniikat
 
 - **HTML5** rakenteeseen
 - **JavaScript** laskentalogiikkaan ja tapahtumankäsittelyyn
 - **Bootstrap 5** käyttöliittymän asetteluun ja painikkeiden tyylittelyyn
 - **Bootstrap Icons** painikkeiden kuvakkeisiin
 
-## Projektin rakenne
+## 📁 Projektin rakenne
 
 ```text
 .
@@ -46,7 +46,7 @@ Tämä projekti on harjoitustyö, jossa on yhdistetty useita verkkokehityksen pe
 └── index.js     # laskimen toiminnallisuus
 ```
 
-## Käynnistys
+## ⚙️ Käynnistys
 
 1. Lataa tai kloonaa projekti omalle koneellesi.
 2. Avaa `index.html` selaimessa.
@@ -54,13 +54,13 @@ Tämä projekti on harjoitustyö, jossa on yhdistetty useita verkkokehityksen pe
 
 Erillistä asennusta tai pakettienhallintaa ei tarvita, koska Bootstrap ja ikonit ladataan CDN:n kautta.
 
-## Miten projekti toimii
+## :nut_and_bolt: Miten projekti toimii
 
 Käyttöliittymä on rakennettu keskitetystä näyttökentästä ja painikeriveistä. Painikkeille on määritelty `data-value`- ja `data-action`-attribuutteja, joiden avulla JavaScript tunnistaa, lisätäänkö merkki näytölle vai suoritaanko jokin toiminto, kuten tyhjennys, askelpalautus tai laskenta.
 
 Laskenta ei perustu suoraan `eval()`-funktioon, vaan lauseke käsitellään vaiheittain JavaScriptissä. Syöte ensin siistitään, sitten pilkotaan osiin, minkä jälkeen se arvioidaan omalla parserilla. Tämä tekee toteutuksesta turvallisemman ja samalla opettavaisen harjoituksen lausekkeiden käsittelystä.
 
-## Mitä projektissa on harjoiteltu
+## 🎯 Mitä projektissa on harjoiteltu
 
 Tässä projektissa on harjoiteltu muun muassa:
 
@@ -72,7 +72,7 @@ Tässä projektissa on harjoiteltu muun muassa:
 - käyttöliittymän rakentamista Bootstrapin avulla
 - saavutettavuuden perusteita
 
-## Mahdollisia jatkokehitysideoita
+## :rocket: Mahdollisia jatkokehitysideoita
 
 - näppäimistötuki
 - laskuhistorian lisääminen
@@ -81,11 +81,11 @@ Tässä projektissa on harjoiteltu muun muassa:
 - prosenttilasku ja muut lisätoiminnot
 - responsiivisuuden hienosäätö pienille näytöille
 
-## Yhteenveto
+## :toolbox: Yhteenveto
 
 Tämä projekti on kompakti mutta hyvä esimerkki siitä, miten HTML, JavaScript ja Bootstrap voidaan yhdistää toimivaksi selainpohjaiseksi sovellukseksi. Vaikka kyseessä on yksinkertainen laskin, mukana on useita tärkeitä peruskäsitteitä, joista on hyötyä myös suuremmissa web-projekteissa.
 
-## Tekijä
+## 👤 Tekijä
 
 **Lauri Tikkanen**
 
